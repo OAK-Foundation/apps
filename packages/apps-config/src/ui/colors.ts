@@ -42,6 +42,7 @@ const chainManta = '#2070a6';
 const chainMoonrock = '#3d1d5a';
 const chainNFTMart = '#815287';
 const chainOakTestnet = '#E38985';
+const chainOrmlTestnet = '#E38985';
 const chainPangolin = '#5744ff';
 const chainParami = '#ee06e2';
 const chainPhala = '#a7e300';
@@ -126,6 +127,7 @@ const nodeNodle = '#1ab394';
 const nodeOakTestnet = '#E38985';
 const nodeOpportunity = '#6143bc';
 const nodeOriginTrail = '#131415';
+const nodeOrmlTestnet = '#E38985';
 const nodePangolin = '#5744ff';
 const nodeParami = '#ee06e2';
 const nodePolkadex = '#7C30DD';
@@ -235,6 +237,7 @@ export const chainColors: Record<string, string> = Object.entries({
   'OAK Testnet': chainOakTestnet,
   'OriginTrail Parachain': nodeOriginTrail,
   'OriginTrail Parachain Testnet': nodeOriginTrail,
+  'ORML Testnet': chainOrmlTestnet,
   Pangolin: chainPangolin,
   'Parallel Heiko': chainHeiko,
   'Parami PC2': chainParami,
@@ -329,6 +332,7 @@ export const nodeColors = Object.entries({
   'OAK Testnet': nodeOakTestnet,
   'Opportunity Standalone Testnet': nodeOpportunity,
   'OriginTrail Parachain': nodeOriginTrail,
+  'ORML Testnet': nodeOrmlTestnet,
   Pangolin: nodePangolin,
   'Parallel Heiko': nodeHeiko,
   'Parami Collator': nodeParami,

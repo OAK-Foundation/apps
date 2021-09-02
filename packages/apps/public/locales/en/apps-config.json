@@ -150,6 +150,7 @@
   "rpc.test.oak": "OAK Testnet",
   "rpc.test.opportunity": "Opportunity",
   "rpc.test.origintrail": "OriginTrail Parachain Testnet",
+	"rpc.test.orml": "ORML Testnet",
   "rpc.test.pangolin": "Pangolin",
   "rpc.test.phala": "Chala (Para1)",
   "rpc.test.phoenix": "Phoenix Mashnet",

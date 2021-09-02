@@ -64,6 +64,7 @@ import nodle from './nodle';
 import oakTestnet from './oak-testnet';
 import opportunity from './opportunity';
 import origintrail from './origintrail';
+import ormlTestnet from './orml-testnet';
 import pangolin from './pangolin';
 import parallel from './parallel';
 import parami from './parami';
@@ -186,6 +187,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   'oak-testnet': oakTestnet,
   opportunity,
   'origintrail-parachain': origintrail,
+  'orml-testnet': ormlTestnet,
   parami,
   'phala-collator': phalaParachain,
   'phala-node': phala,

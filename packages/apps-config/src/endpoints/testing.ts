@@ -306,6 +306,13 @@ export function createTesting (t: TFunction, firstOnly: boolean, withSort: boole
       }
     },
     {
+      info: 'orml-testnet',
+      text: t('rpc.test.orml', 'ORML Testnet', { ns: 'apps-config' }),
+      providers: {
+        'ORML Network': 'ws://127.0.0.1:9951'
+      }
+    },
+    {
       info: 'pangolin',
       text: t('rpc.test.pangolin', 'Pangolin', { ns: 'apps-config' }),
       providers: {
