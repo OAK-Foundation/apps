@@ -384,7 +384,7 @@ export function createKusama (t: TFunction): EndpointOption {
         isUnreachable: true,
         homepage: 'https://oak.tech',
         paraId: 2114,
-        text: t('rpc.turing.oak', 'Turing', { ns: 'apps-config' }),
+        text: t('rpc.turing.oak', 'Turing Network', { ns: 'apps-config' }),
         providers: {
           OAK: 'wss://rpc.turing.oak.tech',
           OnFinality: 'wss://turing.api.onfinality.io/public-ws'
