@@ -43,6 +43,7 @@ import chainShiden from './chains/shiden.png';
 import chainSnakenet from './chains/snakenet.svg';
 import chainSpanner from './chains/spanner.png';
 import chainStandard from './chains/standard.png';
+import chainTuring from './chains/turing.png';
 import chainUnique from './chains/unique.svg';
 import chainUnorthodox from './chains/unorthodox.png';
 import extensionPolkadotJs from './extensions/polkadot-js.svg';
@@ -330,6 +331,7 @@ export const chainLogos = Object.entries({
   Trick: chainRococoTrick,
   trustbase: nodeTrustBase,
   'TrustBase PC1': nodeTrustBase,
+  'Turing Network': chainTuring,
   'uni arts staging network': nodeUniarts,
   'UniArts Mainnet': nodeUniarts,
   Unique: chainUnique,
