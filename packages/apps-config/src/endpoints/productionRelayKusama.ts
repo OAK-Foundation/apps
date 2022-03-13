@@ -386,7 +386,7 @@ export function createKusama (t: TFunction): EndpointOption {
         paraId: 2114,
         text: t('rpc.turing.oak', 'Turing', { ns: 'apps-config' }),
         providers: {
-          OAK: 'wss://rpc.turing.oak.tech',
+          OAK: 'wss://rpc.testnet.oak.tech',
           OnFinality: 'wss://turing.api.onfinality.io/public-ws'
         }
       },
